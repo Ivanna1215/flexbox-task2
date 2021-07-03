@@ -1,13 +1,91 @@
 .container {
     background-color: grey;
-    width: 70vw;
-    height: 800px;
-    border: 5px solid red;
+    width: 1400px;
+    height: 1600px;
+    /* border: 5px solid red; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+   /* align-items: stretch; */
+    margin: 0 auto;
 }
+.container-2 {
+    width: 1200px;
+    height: 1100px; 
+    border: 5px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+   margin: 100px auto;
+
+}
+
 .fantastic {
     background-image:
     url(/flexbox-task2/img/car.png);
-    border: 5px solid blue;
+    /* border: 5px solid black; */
+    /* filter: contrast(100%); */
+    /* filter: brightness(90%); */
+  
     width: 740px;
+    height: 495px;
+    margin: 15px 10px 10px 0;
+     
+}
+.big-text {
+    font-size: 30px;
+letter-spacing: 1px;
+line-height: 36px;
+color: #ffffff;
+font-family: "Hans Kendrick";
+/* border: 5px solid pink; */
+}
+.big-text-2 {
+    font-size: 18px;
+letter-spacing: 1px;
+line-height: 10px;
+color: #1d1d1d;
+font-family: "Hans Kendrick";
+width: 310px;
+height: 80px;
+text-align: left;
+/* margin-top:5px; */
+/* margin-right: 264px; */
+text-transform: uppercase;
+font-weight: 800;
+/* border: 5px solid pink; */
+/* box-sizing: border-box; */
+}
+
+.small-text {
+    font-size: 15px;
+letter-spacing: 0px;
+line-height: 30px;
+color: black;
+font-weight: 500;
+font-family: "Hans Kendrick";
+/* margin:5px 0; */
+/* border: 5px solid green; */
+/* box-sizing: border-box; */
+}
+.img {
+    width: 360px;
+    height: 250px;
+    /* border: 5px solid gold; */
+}
+.small-box {
+    display: flex;
+     flex-direction: column; 
+     justify-content:space-between ;
+     /* align-content: stretch; */
+    width: 360px;
     height: 540px;
+    /* border: 5px solid rgb(0, 128, 68); */
+    margin: 10px 5px 5px 0;
+    background-color: white;
+    
+    /* justify-content: space-between; */
+}
+.small-img{
+    margin-bottom: 0;
+    /* box-sizing: border-box; */
 }
