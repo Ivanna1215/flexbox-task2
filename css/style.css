@@ -1,43 +1,41 @@
 .container {
-    background-color: grey;
+    background-color: #E2E7EC;
     width: 1400px;
     height: 1600px;
-    /* border: 5px solid red; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* justify-content: flex-start; */
-   /* align-items: stretch; */
     margin: 0 auto;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
 }
 .container-2 {
-    width: 1200px;
-    height: 1100px; 
-    border: 5px solid blueviolet;
     display: flex;
     flex-wrap: wrap;
-   margin: 100px auto;
-
+   margin: 0 auto;
+   justify-content: center;
+   /* border:1px solid red; */
 }
 
 .fantastic {
-    background-image:
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
     url(/flexbox-task2/img/car.png);
-    /* border: 5px solid black; */
-    /* filter: contrast(100%); */
-    /* filter: brightness(90%); */
-  
+    display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
     width: 740px;
-    height: 495px;
-    margin: 15px 10px 10px 0;
-     
+    height: 540px;
+    margin: 0 15px 19px 0;
+    border:1px solid blue;
+   
 }
 .big-text {
-    font-size: 30px;
-letter-spacing: 1px;
+font-size: 30px;
 line-height: 36px;
 color: #ffffff;
 font-family: "Hans Kendrick";
-/* border: 5px solid pink; */
+margin:23px 264px 40px 44px;
+text-transform: uppercase;
+
+
 }
 .big-text-2 {
     font-size: 18px;
@@ -48,12 +46,16 @@ font-family: "Hans Kendrick";
 width: 310px;
 height: 80px;
 text-align: left;
-/* margin-top:5px; */
-/* margin-right: 264px; */
 text-transform: uppercase;
 font-weight: 800;
-/* border: 5px solid pink; */
-/* box-sizing: border-box; */
+margin: 21px 26px 70px 28px;
+
+}
+.fantastic .small-text {
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left:44px;
+    margin-bottom: -23px;
 }
 
 .small-text {
@@ -63,29 +65,51 @@ line-height: 30px;
 color: black;
 font-weight: 500;
 font-family: "Hans Kendrick";
-/* margin:5px 0; */
-/* border: 5px solid green; */
-/* box-sizing: border-box; */
+margin-top: 28px;
+margin-left: 28px;
+
 }
+.opasity {
+    opacity: 0;
+}
+
 .img {
     width: 360px;
     height: 250px;
-    /* border: 5px solid gold; */
+    
 }
+
+
 .small-box {
     display: flex;
      flex-direction: column; 
      justify-content:space-between ;
-     /* align-content: stretch; */
     width: 360px;
     height: 540px;
-    /* border: 5px solid rgb(0, 128, 68); */
-    margin: 10px 5px 5px 0;
+    margin: 0 19px 19px 0;
     background-color: white;
     
-    /* justify-content: space-between; */
+    
 }
 .small-img{
-    margin-bottom: 0;
-    /* box-sizing: border-box; */
+    margin:0 278px 25px 29px;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid blue; */
+    justify-content: center;
+    opacity:0.5;
+    margin-top: 87px;
+}
+.synny-img {
+    /* border: 5px solid pink; */
+}
+.footer .small-text {
+    /* border: 5px solid red; */
+    margin: 0;
+    margin-left: 5px;
+
+
 }
